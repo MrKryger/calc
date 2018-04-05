@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Calc from '@/components/Calc'
-import Select from '@/components/SelectMarket'
+import CalcTwo from '@/components/CalcTwo'
 
 Vue.use(Router)
 
@@ -13,9 +13,9 @@ export default new Router({
       component: Calc
     },
     {
-      path: '/item/:id/',
-      name: 'Select',
-      component: Select
+      path: '/calc',
+      name: 'CalcTwo',
+      component: CalcTwo
     }
   ]
 })
